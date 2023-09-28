@@ -1,0 +1,16 @@
+:root {
+  --primary: rgb(59, 130, 246);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  z-index: 1000;
+}
+
+/* Gaya untuk menu aktif */
+nav a.scroll-link.active {
+  color: var(--primary);
+}
